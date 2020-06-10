@@ -23,4 +23,5 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "MyMedicines/MyMedicines/**/*.{h,m,swift,framework}"
+  spec.dependency 'RealmSwift'
 end
